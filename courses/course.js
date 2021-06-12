@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 
 const app = express();
 app.use(bodyParser.json())
-console.log("git test");
+
 let courses  =
 [
     {id:1, name:'course1'},
